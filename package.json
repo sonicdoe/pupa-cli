@@ -1,0 +1,32 @@
+{
+	"name": "pupa-cli",
+	"version": "0.0.0",
+	"description": "Simple micro templating on the command line",
+	"keywords": [
+		"template",
+		"templating",
+		"replace",
+		"placeholders",
+		"cli"
+	],
+	"license": "ISC",
+	"repository": "sonicdoe/pupa-cli",
+	"author": "Jakob Krigovsky <jakob@krigovsky.com>",
+	"files": [
+		"cli.js"
+	],
+	"bin": "cli.js",
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"dependencies": {
+		"meow": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.21.1"
+	},
+	"engines": {
+		"node": ">=6"
+	}
+}
